@@ -1,0 +1,179 @@
+.score-card-button {
+    box-sizing: border-box;
+    width: 120px;
+    height: 30.69px;
+    background: #80B7FF;
+    opacity: 0.99;
+    border: 1px solid #506888;
+    border-radius: 11.8428px;
+    margin-top: 12px;
+}
+
+.score-card-button-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0x;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: -12px;
+}
+
+.score-card-student-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 17px;
+    font-weight: bold;
+}
+
+.score-card-student-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 41px;
+}
+
+.score-card-batch-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 50px;
+}
+
+.score-card-cgpa {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 17px;
+    font-weight: bold;
+}
+
+.score-card-cgpa-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 140px;
+}
+
+.test-name-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000000;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.test-name-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    /* display: flex;
+    align-items: center; */
+    color: #000000;
+    opacity: 0.8;
+    /* padding-left: 26px;
+    padding-right: 91px; */
+}
+
+.total-marks-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    margin-right: 100px;
+}
+
+.total-cgpa-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.total-cgpa-border {
+    box-sizing: border-box;
+    width: 120px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.total-cgpa-border-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    justify-content: center;
+}
+
+
+.score-card-box {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15); */
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 21px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}

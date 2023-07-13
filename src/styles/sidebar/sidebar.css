@@ -1,0 +1,637 @@
+.active {
+    color: #00B8C9 !important;
+}
+
+.sidebar-logo {
+    margin-left: 19px;
+    margin-top: 28px;
+    width: 34.27px;
+    height: 37.16px
+}
+
+.sidebar-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #2F2F2F;
+    margin-left: 14.73px;
+    margin-top: 37px;
+}
+
+
+
+.sidebar {
+    width: 280px;
+    margin-left: 2%;
+    margin-top: 8.5%;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.sidebar-line {
+    margin-top: 31.84px;
+    margin-left: 21px;
+    width: 220px;
+    height: 0px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.sidebar-item-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: #2F2F2F;
+    text-decoration: none;
+    margin-top: 27px;
+    margin-left: 25px;
+    opacity: 0.8;
+}
+
+.dashboard-text-icon {
+    margin-left: 5px;
+    margin-top: 43px;
+    width: 18px;
+    height: 18px;
+    opacity: 0.8;
+}
+
+
+.sidebar-item-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: #2F2F2F;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 21px;
+    opacity: 0.8;
+}
+
+.codersid-students-icon {
+    margin-left: 5px;
+    margin-top: 22px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.sidebar-item-3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: #2F2F2F;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 21px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.sidebar-item-4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F2F2F;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.master-text-icon {
+    margin-left: 5px;
+    margin-top: 22px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.master-arrow-icon {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin-left: 100px;
+    margin-top: 28.27px;
+}
+
+.lead-icon {
+    margin-left: 5px;
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.8;
+}
+
+.lead-arrow-icon {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin-left: 110px;
+    margin-top: 15.27px;
+}
+
+.list-icon {
+    margin-left: 20px;
+    margin-right: 13px;
+    width: 6.77px;
+    height: 6.77px;
+}
+
+.add-batch-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    opacity: 0.7;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+.list-icon-2 {
+    margin-top: 15.33px;
+    margin-left: 20px;
+    margin-right: 13px;
+    width: 6.77px;
+    height: 6.77px;
+}
+
+.add-user-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    opacity: 0.7;
+    text-decoration: none;
+    margin-top: 1.32px;
+}
+
+.list-icon-3 {
+    margin-top: 15.33px;
+    margin-left: 20px;
+    margin-right: 13px;
+    width: 6.77px;
+    height: 6.77px;
+}
+
+.add-course-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    opacity: 0.7;
+    text-decoration: none;
+    margin-top: 1.32px;
+}
+
+.list-icon-4 {
+    margin-top: 15.33px;
+    margin-left: 20px;
+    margin-right: 13px;
+    width: 6.77px;
+    height: 6.77px;
+}
+
+
+.add-expense-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    opacity: 0.7;
+    text-decoration: none;
+    margin-top: 1.32px;
+}
+
+.payment-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #2F2F2F;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.payment-icon {
+    margin-top: 15px;
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    color: #2F2F2F;
+}
+
+.payment-arrow-icon {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin-left: 90px;
+    margin-top: 23.27px;
+}
+
+.list-icon-5 {
+    margin-top: 10.33px;
+    margin-left: 20px;
+    margin-right: 13px;
+    width: 6.77px;
+    height: 6.77px;
+}
+
+.payment-records {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.list-icon-6 {
+    margin-top: 12.33px;
+    margin-left: 20px;
+    margin-right: 13px;
+    width: 6.77px;
+    height: 6.77px;
+}
+
+.payfee {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2F2F2F;
+    opacity: 0.7;
+    text-decoration: none;
+    margin-top: 1.32px;
+}
+
+.expense-management {
+    margin-top: 2.96px;
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #2F2F2F;
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebar-expense-manage-icon {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    color: #2F2F2F;
+}
+
+.assessment-arrow-icon {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin-left: 60px;
+    margin-top: 23.27px;
+}
+
+.feedback-arrow-icon {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin-left: 70px;
+    margin-top: 23.27px;
+}
+
+
+@media screen and (max-width:394px) {
+    .sidebar {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        background: #FFFFFF;
+        border: 1px solid #F3F3F3;
+        box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+        border-radius: 6px;
+    }
+
+    .sidebar-logo {
+        margin-left: 19px;
+        margin-top: 23%;
+        width: 34.27px;
+        height: 37.16px
+    }
+
+    .sidebar-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #2F2F2F;
+        margin-left: 14.73px;
+        margin-top: 25%;
+    }
+
+    .sidebar-line {
+        margin-top: 10.84px;
+        margin-left: 21px;
+        width: 220px;
+        height: 0px;
+        opacity: 0.05;
+        border: 1px solid #000000;
+    }
+
+    .sidebar-item-1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2F2F2F;
+        text-decoration: none;
+        margin-top: 27px;
+        margin-left: 21px;
+        opacity: 0.8;
+    }
+
+    .dashboard-text-icon {
+        margin-left: 3px;
+        margin-top: 33px;
+        width: 18px;
+        height: 18px;
+        opacity: 0.8;
+    }
+
+
+    .sidebar-item-2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2F2F2F;
+        text-decoration: none;
+        margin-top: 7px;
+        margin-left: 21px;
+        opacity: 0.8;
+    }
+
+    .codersid-students-icon {
+        margin-left: 5px;
+        margin-top: 16px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.8;
+    }
+
+    .sidebar-item-3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2F2F2F;
+        text-decoration: none;
+        margin-top: 7px;
+        margin-left: 21px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .master-text-icon {
+        margin-left: 5px;
+        margin-top: 12px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.8;
+    }
+
+    .master-arrow-icon {
+        width: 10px;
+        height: 10px;
+        opacity: 0.5;
+        margin-left: 100px;
+        margin-top: 20.27px;
+    }
+
+    .list-icon {
+        margin-left: 20px;
+        margin-right: 13px;
+        width: 6.77px;
+        height: 6.77px;
+    }
+
+    .add-batch-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        color: #2F2F2F;
+        opacity: 0.7;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .list-icon-2 {
+        margin-top: 3.33px;
+        margin-left: 20px;
+        margin-right: 13px;
+        width: 6.77px;
+        height: 6.77px;
+    }
+
+    .add-user-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        color: #2F2F2F;
+        opacity: 0.7;
+        text-decoration: none;
+        margin-top: 1.32px;
+        margin-bottom: 10px;
+    }
+
+    .list-icon-3 {
+        margin-top: 3.33px;
+        margin-left: 20px;
+        margin-right: 13px;
+        width: 6.77px;
+        height: 6.77px;
+    }
+
+    .add-course-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        color: #2F2F2F;
+        opacity: 0.7;
+        text-decoration: none;
+        margin-top: 1.32px;
+        margin-bottom: 10px;
+    }
+
+    .list-icon-4 {
+        margin-top: 3.33px;
+        margin-left: 20px;
+        margin-right: 13px;
+        width: 6.77px;
+        height: 6.77px;
+    }
+
+
+    .add-expense-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        color: #2F2F2F;
+        opacity: 0.7;
+        text-decoration: none;
+        margin-top: 1.32px;
+        margin-bottom: 10px;
+    }
+
+    .payment-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #2F2F2F;
+        opacity: 0.8;
+        margin-left: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+    .payment-icon {
+        margin-top: 5px;
+        margin-left: 4px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.8;
+        color: #2F2F2F;
+    }
+
+    .payment-arrow-icon {
+        width: 10px;
+        height: 10px;
+        opacity: 0.5;
+        margin-left: 100px;
+        margin-top: 10.27px;
+    }
+
+    .list-icon-5 {
+        margin-top: 3.33px;
+        margin-left: 20px;
+        margin-right: 13px;
+        width: 6.77px;
+        height: 6.77px;
+    }
+
+    .payment-records {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        color: #2F2F2F;
+        opacity: 0.7;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .list-icon-6 {
+        margin-top: 3.33px;
+        margin-left: 20px;
+        margin-right: 13px;
+        width: 6.77px;
+        height: 6.77px;
+    }
+
+    .payfee {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        color: #2F2F2F;
+        opacity: 0.7;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .expense-management {
+        margin-top: 0px;
+        margin-left: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #2F2F2F;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+
+    .sidebar-expense-manage-icon {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.8;
+        color: #2F2F2F;
+    }
+
+
+}

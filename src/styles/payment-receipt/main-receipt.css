@@ -1,0 +1,638 @@
+.main-receipt-card {
+    box-sizing: border-box;
+    width: 647px;
+    align-items: center;
+    margin-left: 25%;
+    /* margin-top: 8.5%; */
+    background: #FFFFFF;
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15); */
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.receipt-header-logo {
+    width: 100%;
+    height: 10px;
+}
+
+.receipt-tag-line {
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.receipt-logo {
+    width: 207.42px;
+    height: 43.1px;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.download-container {
+    width: 93px;
+    height: 25px;
+}
+
+.download-button {
+    width: 93px;
+    height: 25px !;
+    background: #43C4D8;
+    border-radius: 3px;
+    margin-left: 303px;
+    margin-top: 20px;
+}
+
+.download-button-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 35px;
+    color: #000000;
+    width: 59px;
+    height: 16px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.main-receipt-date-text {
+    margin-left: 370px;
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.main-receipt-date-value {
+    margin-left: 12px;
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.main-first-receipt-box {
+    box-sizing: border-box;
+    width: 599px;
+    height: 106px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15); */
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 23px;
+    margin-top: 49px;
+}
+
+.main-second-receipt-box {
+    box-sizing: border-box;
+    width: 326px;
+    height: 85px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15); */
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 296px;
+    margin-top: 21px;
+    margin-right: 25px;
+}
+
+.main-third-receipt-box {
+    background: #43C4D8;
+    border-radius: 5px;
+    width: 326px;
+    height: 33px;
+    margin-left: 296px;
+    margin-top: 24px;
+}
+
+.main-fourth-receipt-box {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15); */
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 21px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 229px;
+}
+
+
+.main-receipt-no {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    padding-left: 17px;
+}
+
+.main-receipt-no-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    margin-left: 82px;
+}
+
+.main-receipt-student-id {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    padding-left: 10px;
+}
+
+.main-receipt-student-id-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 82px;
+}
+
+.main-receipt-student-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 17px;
+}
+
+
+
+.main-receipt-student-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    margin-left: 101px;
+}
+
+.main-receipt-contact-number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 10px;
+
+}
+
+.main-receipt-contact-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    margin-left: 45px;
+}
+
+.main-receipt-payment-mode {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.main-receipt-payment-mode-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.main-receipt-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    /* padding-left: 17px; */
+}
+
+.main-receipt-amount {
+    margin-left: 383px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.main-receipt-course-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 8px;
+}
+
+.main-receipt-course-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 41px;
+    
+}
+
+.main-receipt-amount-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 17px;
+    margin-left: 58px;
+}
+
+.main-receipt-amount-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 95px;
+}
+
+
+.main-receipt-batch-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 8px;
+}
+
+.main-receipt-batch-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    margin-left: 41px;
+    margin-right: 10px;
+}
+
+.main-receipt-sac-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 0px;
+}
+
+.main-receipt-sac-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    margin-left: 31px;
+    margin-right: 10px;
+}
+
+.main-receipt-gst-amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    margin-left: 88px;
+}
+
+.main-receipt-gst-amount-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-left: 17px;
+    padding-right: 20px;
+    margin-left: 95px;
+}
+
+
+.main-receipt-total-amount {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 3px;
+}
+
+.main-receipt-total-amount-value {
+    margin-left: 370px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+.main-receipt-note {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+    padding-right: 17px;
+    padding-top: 19px;
+}
+
+
+.main-receipt-vertical-line {
+    margin-left: 56px;
+    margin-top: 25px;
+    width: 55px;
+    height: 0px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.main-receipt-vertical-line-2 {
+    margin-left: 50px;
+    margin-top: 23px;
+    width: 55px;
+    height: 0px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.main-receipt-vertical-line-3 {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 43px;
+    height: 0px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.main-receipt-vertical-line-4 {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 43px;
+    height: 0px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.main-receipt-email-icon {
+    border-radius: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 17.6px;
+    height: 14.08px;
+    margin-left: 20px;
+}
+
+.main-receipt-email-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #00061F;
+}
+
+.main-receipt-phone-icon {
+    border-radius: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 17.6px;
+    height: 14.08px;
+    margin-left: 5px;
+}
+
+.main-receipt-phone-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 140px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #00061F;
+}
+
+
+.main-receipt-location-icon {
+    border-radius: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 17.6px;
+    height: 14.08px;
+    margin-left: 5px;
+}
+
+.main-receipt-location-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #00061F;
+}
+
+
+
+.main-receipt-vertical-line-4 {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 43px;
+    height: 0px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.main-receipt-horizontal-line-1 {
+    margin-left: 0px;
+    width: 598px;
+    height: 0px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    margin-top: 0px;
+    margin-top: -15px;
+}
+
+.main-receipt-horizontal-line-2 {
+    width: 326px;
+    height: 0px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    margin-top: -25px;
+}
+
+.main-receipt-horizontal-line-3 {
+    width: 600.5px;
+    height: 0px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    margin-top: -25px;
+}
+
+.main-receipt-horizontal-line-4 {
+    width: 600.5px;
+    height: 0px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    margin-top: -25px;
+}
+
+@media screen and (max-width: 394px) {
+    .main-receipt-card {
+        box-sizing: border-box;
+        width: 647px;
+        align-items: center;
+        margin-left: 0;
+        /* margin-top: 8.5%; */
+        background: #FFFFFF;
+        /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15); */
+        border: 1px solid grey;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    
+}

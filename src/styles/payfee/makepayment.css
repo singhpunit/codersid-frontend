@@ -1,0 +1,158 @@
+.make-payment-card {
+    box-sizing: border-box;
+    width: 77%;
+    height: 100%;
+    align-items: center;
+    margin-left: 22%;
+    margin-top: -37%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.make-payment-title {
+    padding-top: 22.88px;
+    margin-left: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.make-payment-student-name {
+    padding-left: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000000;
+    
+}
+
+.student-name-input-field {
+    margin-left: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* width: 280px; */
+    height: 50px;
+    opacity: 0.5;
+}
+
+
+.make-payment-email-address {
+    margin-top: 12px;
+    padding-left: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000000;
+    
+}
+
+.make-payment-third-installment-status-input-field {
+    margin-left: 0px;
+    margin-bottom:20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 280px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.make-payment-rectangular-box {
+    max-width: 96%;
+    margin-top: 27px;
+    margin-left: 22px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.make-payment-total-fees {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 40%;
+}
+
+.make-payment-horizontal-line {
+    width: 28px;
+    height: 0px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.make-payment-horizontal-line-2 {
+    width: 96%;
+    height: 0px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    margin-left: 13px;
+    margin-right: 15px;
+}
+
+.make-payment-horizontal-line-3 {
+    width: 28px;
+    height: 0px;
+    margin-top: 28px;
+    margin-left: 30px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+
+}
+
+.make-payment-total-fees-value {
+    margin-left: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.make-payment-registration-fees {
+    padding-left: 23px;
+    margin-top: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.make-payment-registration-fees-value {
+    margin-left: 28px;
+    margin-top: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000000;
+    opacity: 0.5;
+}

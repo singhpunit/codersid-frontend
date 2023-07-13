@@ -1,0 +1,1090 @@
+/* th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    border-radius: 5px;
+  } */
+
+.borderWidth {
+    border-width: medium !important;
+}
+
+
+.student-details-heading {
+    position: absolute;
+    width: 383px;
+    height: 50px;
+    left: calc(67.5% - 275px/2 - 461.45px);
+    top: 120.88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+.student-details-primary-box {
+    position: absolute;
+    width: 994px;
+    height: 271px;
+    left: 325px;
+    top: 175px;
+    background: #FFFFFF;
+    opacity: 2.2;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+
+.student-details-list-heading-1 {
+    position: absolute;
+    width: 72px;
+    height: 50px;
+    left: 21px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-2 {
+    position: absolute;
+    width: 92px;
+    height: 50px;
+    left: 21px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-3 {
+    position: absolute;
+    width: 92px;
+    height: 50px;
+    left: 21px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-4 {
+    position: absolute;
+    width: 72px;
+    height: 50px;
+    left: 21px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-5 {
+    position: absolute;
+    width: 122px;
+    height: 50px;
+    left: 21px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-6 {
+    position: absolute;
+    width: 122px;
+    height: 50px;
+    left: 510px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-7 {
+    position: absolute;
+    width: 122px;
+    height: 50px;
+    left: 510px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-8 {
+    position: absolute;
+    width: 122px;
+    height: 50px;
+    left: 510px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-9 {
+    position: absolute;
+    width: 122px;
+    height: 50px;
+    left: 510px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-10 {
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 20px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-11 {
+    position: absolute;
+    width: 145px;
+    height: 50px;
+    left: 20px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-12 {
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    left: 20px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-13 {
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    left: 20px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-14 {
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 345px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-15 {
+    position: absolute;
+    width: 145px;
+    height: 50px;
+    left: 345px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-16 {
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    left: 345px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-17 {
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    left: 345px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-18 {
+    position: absolute;
+    width: 214px;
+    height: 50px;
+    left: 660px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-19 {
+    position: absolute;
+    width: 224px;
+    height: 50px;
+    left: 660px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-20 {
+    position: absolute;
+    width: 234px;
+    height: 50px;
+    left: 660px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.student-details-list-heading-21 {
+    position: absolute;
+    width: 234px;
+    height: 50px;
+    left: 660px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.line1 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 147px;
+    top: 25px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line2 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 147px;
+    top: 65px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line3 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 147px;
+    top: 85px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line4 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 147px;
+    top: 105px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line5 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 147px;
+    top: 145px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+
+.line6 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 650px;
+    top: 25px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+
+.line10 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 190px;
+    top: 25px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line11 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 190px;
+    top: 65px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line12 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 190px;
+    top: 105px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line13 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 190px;
+    top: 145px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line14 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 490px;
+    top: 25px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line14 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 495px;
+    top: 25px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line15 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 495px;
+    top: 65px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line16 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 495px;
+    top: 105px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line17 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 490px;
+    top: 145px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line18 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 875px;
+    top: 25px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+.line19 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 875px;
+    top: 65px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+
+.line20 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 875px;
+    top: 105px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+
+.line21 {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 875px;
+    top: 145px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
+
+.studentid {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 224.37px;
+    top: px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+.name {
+    position: absolute;
+    width: 37px;
+    height: 50px;
+    left: 807.37px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+.batchname {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 224.37px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.course {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 807.37px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.emailid {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 224.37px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.contact-details {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 807.37px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.address {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 224.37px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.admission-date {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 224.37px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.totalfees {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 807.37px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.registration-fees {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 254.37px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+.first-installment-fees {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 254.37px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.second-installment-fees {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 254.37px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.third-installment-fees {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 254.37px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.registration-date {
+    position: absolute;
+    width: 89px;
+    height: 50px;
+    left: 540px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.first-installment-date {
+    position: absolute;
+    width: 89px;
+    height: 50px;
+    left: 540px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.second-installment-date {
+    position: absolute;
+    width: 89px;
+    height: 50px;
+    left: 540px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.third-installment-date {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 540px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.registration-payment-status {
+    position: absolute;
+    width: 71px;
+    height: 50px;
+    left: 930.37px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.first-installment-payment-status {
+    position: absolute;
+    width: 71px;
+    height: 50px;
+    left: 930.37px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.second-installment-payment-status {
+    position: absolute;
+    width: 71px;
+    height: 50px;
+    left: 930.37px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.third-installment-payment-status {
+    position: absolute;
+    width: 71px;
+    height: 50px;
+    left: 930.37px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+
+.horizontal-line-box1 {
+    position: absolute;
+    width: 269px;
+    height: 0px;
+    left: calc(50% - 269px/2 + 135.5px);
+    top: 310px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.horizontal-line-box2 {
+    position: absolute;
+    width: 188px;
+    height: 0px;
+    left: calc(43% - 188px/2 - 98px);
+    top: 95px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.horizontal-line-box3 {
+    position: absolute;
+    width: 188px;
+    height: 0px;
+    left: calc(35% - 188px/2 + 306px);
+    top: 95px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+
+.vertical-line-1 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: 0px;
+    top: 42px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-2 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: 0px;
+    top: 82px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-3 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: 0px;
+    top: 122px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-4 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: 0px;
+    top: 162px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-5 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: 0px;
+    top: 42px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-6 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: calc(50% - 995px/2);
+    top: 46px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-7 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: calc(50% - 995px/2);
+    top: 86px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-8 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: calc(50% - 995px/2);
+    top: 126px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.vertical-line-9 {
+    position: absolute;
+    width: 995px;
+    height: 0px;
+    left: calc(50% - 995px/2);
+    top: 166px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.student-details-secondary-box {
+    position: absolute;
+    width: 994px;
+    height: 190px;
+    left: 325px;
+    top: 465px;
+    background: #FFFFFF;
+    opacity: 2.2;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}

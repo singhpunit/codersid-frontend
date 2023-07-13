@@ -1,0 +1,751 @@
+.receipt-header-logo {
+    /* position: absolute; */
+    width: 821.14px;
+    height: 31.35px;
+    left: 123px;
+    top: 8.35px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.receipt-logo {
+    /* position: absolute; */
+    width: 207.42px;
+    height: 43.1px;
+    left: 18px;
+    top: 27.15px;
+}
+
+
+.receipt-date-text {
+    position: absolute;
+    width: 121px;
+    height: 16px;
+    left: 60%;
+    top: 255px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-date-body {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: 70%;
+    top: 255px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.54;
+}
+
+.first-receipt-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 55%;
+    height: 106px;
+    left: calc(46% - 599px/2 - 1px);
+    top: 301px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.second-receipt-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 95px;
+    left: calc(54% - 386px/2 + 135.5px);
+    top: 420px;
+    /* border: 1px solid #000000; */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.third-receipt-box {
+    position: absolute;
+    width: 380px;
+    height: 33px;
+    left: 50%;
+    top: 85%;
+    background: #43C4D8;
+    border-radius: 5px;
+}
+
+.fourth-receipt-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 54%;
+    height: 210px;
+    left: calc(51% - 54%/2 + 0.5px);
+    top: 93%;
+    /* background: #F1F1F1;
+    opacity: 0.4;
+    border: 1px solid #000000; */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+
+.receipt-no {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 30px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-student-name {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 30px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-value {
+    position: absolute;
+    width: 31px;
+    height: 50px;
+    left: 150px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-student-value {
+    position: absolute;
+    width: 31px;
+    height: 50px;
+    left: 150px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.student-id {
+    position: absolute;
+    width: 68px;
+    height: 50px;
+    left: 394px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.contact-number {
+    position: absolute;
+    width: 68px;
+    height: 50px;
+    left: 394px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+
+.student-id-value {
+    position: absolute;
+    width: 74px;
+    height: 50px;
+    left: 550px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.contact-number-value {
+    position: absolute;
+    width: 74px;
+    height: 50px;
+    left: 550px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-payment-mode {
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 10px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-payment-mode-value {
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 220px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-payment-type {
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 10px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-payment-type-value {
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 220px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-email-address {
+    position: absolute;
+    width: 110px;
+    height: 51px;
+    left: 10px;
+    top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-email-address-value {
+    position: absolute;
+    width: 110px;
+    height: 51px;
+    left: 150px;
+    top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-description {
+    position: absolute;
+    width: 83px;
+    height: 35.85px;
+    left: 30px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-amount {
+    position: absolute;
+    width: 83px;
+    height: 35.85px;
+    left: 80%;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-course-name {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 30px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-course-value {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 150px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-batch-name {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 30px;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-batch-value {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 150px;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+.receipt-total-amount {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 30px;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-amount-2 {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 50%;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-gst {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 50%;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.receipt-total-amount-2 {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 80%;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-gst-value {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 80%;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.receipt-actual-amount {
+    position: absolute;
+    width: 103px;
+    height: 35.85px;
+    left: 80%;
+    top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+
+.receipt-vertical-line-1 {
+    position: absolute;
+    width: 43px;
+    height: 0px;
+    left: calc(45% - 43px/2 + 18px);
+    top: 25px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+
+.receipt-vertical-line-2 {
+    position: absolute;
+    width: 43px;
+    height: 0px;
+    left: calc(45% - 43px/2 + 18px);
+    top: 75px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.receipt-vertical-line-3 {
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    left: calc(0% - 90px/2 + 189px);
+    top: 48px;
+    opacity: 0.1;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.receipt-vertical-line-4 {
+    position: absolute;
+    width: 155px;
+    height: 1px;
+    left: calc(30% - 155px/2 - 78.5px);
+    top: 130px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.receipt-vertical-line-5 {
+    position: absolute;
+    width: 155px;
+    height: 1px;
+    left: calc(50% - 155px/2 - 78.5px);
+    top: 130px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.receipt-vertical-line-6 {
+    position: absolute;
+    width: 155px;
+    height: 1px;
+    left: calc(80% - 155px/2 - 78.5px);
+    top: 130px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.receipt-horizontal-line-1 {
+    position: absolute;
+    width: 95%;
+    height: 0px;
+    left: calc(50% - 95%/2 - 3.5px);
+    top: 50px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.receipt-horizontal-line-2 {
+    position: absolute;
+    width: 386px;
+    height: 0px;
+    left: calc(15% - 386px/2 + 135.5px);
+    top: 45px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.receipt-horizontal-line-3 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: calc(49.5% - 100%/2 + 1.80px);
+    top: 50.5px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.receipt-horizontal-line-4 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: calc(49.5% - 100%/2 + 1.80px);
+    top: 100.5px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.receipt-horizontal-line-5 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: calc(49.5% - 100%/2 + 1.80px);
+    top: 150.5px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+}
+
+.receipt-note {
+    position: absolute;
+    width: 609px;
+    height: 66px;
+    left: 24%;
+    top: 128%;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.mail-icon {
+    position: absolute;
+    width: 17.6px;
+    height: 14.08px;
+    left: 330px;
+    top: 870px;
+    border-radius: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.placement-email {
+    position: absolute;
+    width: 167px;
+    height: 18px;
+    left: 355px;
+    top: 870px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #00061F;
+}
+
+.phone-icon {
+    position: absolute;
+    width: 17.6px;
+    height: 14.08px;
+    left: 545px;
+    top: 870px;
+    border-radius: 1px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.phone-details{
+    position: absolute;
+    width: 167px;
+    height: 18px;
+    left: 575px;
+    top: 870px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+  
+    color: #00061F;
+}
+
+.location-icon {
+    position: absolute;
+    width: 17.6px;
+    height: 14.08px;
+    left: 685px;
+    top: 870px;
+    border-radius: 1px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.location-details{
+    position: absolute;
+    width: 315px;
+    height: 18px;
+    left: 715px;
+    top: 860px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #00061F;
+}

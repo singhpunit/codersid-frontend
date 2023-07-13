@@ -1,0 +1,10 @@
+.view-expense-details-modal-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 10px;
+}

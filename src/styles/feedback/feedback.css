@@ -1,0 +1,99 @@
+.feedback-name-card {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 100%;
+    margin-right: 8px;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+    border-radius: 6px;
+}
+
+.feedback-link-button {
+    box-sizing: border-box;
+    width: 120.77px;
+    height: 23.69px;
+    background: #80B7FF;
+    opacity: 0.99;
+    border: 1px solid #506888;
+    border-radius: 11.8428px;
+    margin-top: 12px;
+}
+
+.feedback-link-button-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+
+.feedback-question-details-add-button {
+    width: 200px;
+    height: 35px;
+    background: #10D1E3;
+    border: 1px solid #AEF8FF;
+    box-sizing: border-box;
+    border-radius: 17.3122px;
+    margin-top: 10px;
+}
+
+.feedback-link-card {
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 98.5%;
+    height: 250px;
+    margin-right: 8px;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+    border-radius: 6px;
+}
+
+.feedback-link-second-card {
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 98.5%;
+    margin-right: 8px;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+    border-radius: 6px;
+}
+
+.feedback-details-submit-button {
+    box-sizing: border-box;
+    width: 100px;
+    height: 44px;
+    background: #10D1E3;
+    border: 1px solid #AAF8FF;
+    border-radius: 22px;
+    margin-top: 10px;
+}
+
+.submit-feedback-button {
+    box-sizing: border-box;
+    width: 250px;
+    height: 44px;
+    background: #10D1E3;
+    border: 1px solid #AAF8FF;
+    border-radius: 22px;
+    margin-top: 10px;
+}
+
+.feedback-comment-textbox {
+    /* width: 330px; */
+    /* border: none !important; */
+    opacity: 0.4;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.feedback-rating-select-box {
+    border: none !important;
+    opacity: 0.5;
+    border-bottom: 1px solid #000000 !important;
+    width: 200px;
+}

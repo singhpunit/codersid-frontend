@@ -1,0 +1,194 @@
+.studentlistcard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+    width: 77.5%;
+    height: 800px;
+    margin-left: 22%;
+    margin-top: -37%;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 15px rgba(188, 188, 188, 0.2);
+    border-radius: 6px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.studentlist-card-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.studentlist-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 11.94px;
+    margin-top: 0px;
+}
+
+
+.add-student-button {
+    box-sizing: border-box;
+    width: 156px;
+    height: 35px;
+    background: #10D1E3;
+    border: 1px solid #AEF8FF;
+    border-radius: 17.3122px;
+    margin-top: 10px;
+    /* margin-left: 621px; */
+}
+
+.add-student-button-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+th {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+}
+
+td {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+}
+
+
+.details-button {
+    box-sizing: border-box;
+    width: 62.77px;
+    height: 23.69px;
+    background: #80B7FF;
+    opacity: 0.99;
+    border: 1px solid #506888;
+    border-radius: 11.8428px;
+    margin-top: 12px;
+}
+
+.details-button-text {
+    width: 40px;
+    height: 14.77px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.noRecordImage {
+    margin-left: 300px !important;
+}
+
+.pagination-button {
+    margin-left: 450px !important;
+}
+
+
+p, label{
+    font-family: 'Poppins';
+    font-weight: 400px;
+}
+
+.student-list-input-width {
+    border: none !important;
+    opacity: 0.5;
+    border-bottom: 1px solid #000000 !important;
+}
+
+@media screen and (max-width: 394px) {
+    .student-list-input-width {
+        width: 300px;
+    }
+
+    .scroll {
+        overflow-x: scroll !important;
+    }
+
+    .studentlist-card-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .add-student-button-position {
+        position: absolute;
+        width: 148.62px;
+        height: 51.75px;
+        left: 180px;
+        top: 710px;
+    }
+
+    .add-student-button {
+        box-sizing: border-box;
+        width: 156px;
+        height: 35px;
+        background: #10D1E3;
+        border: 1px solid #AEF8FF;
+        border-radius: 17.3122px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .add-student-button-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .pagination-button {
+        margin-left: 100px !important;
+    }
+
+}
+
+/* table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2} */

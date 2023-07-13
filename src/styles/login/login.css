@@ -1,0 +1,160 @@
+.loginlogo {
+    position: absolute;
+    width: 230px;
+    height: 49px;
+    left: 194.51px;
+    top: 60px;
+}
+
+.FormBackground {
+    position: absolute;
+    width: 407px;
+    height: 460px;
+    left: 106px;
+    top: 140px;
+    background: #ECF5FF;
+    border-radius: 10px;
+}
+
+.loginFormText {
+    position: absolute;
+    width: 189px;
+    height: 30px;
+    left: 219px;
+    top: 170px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.loginFormBackground {
+    position: absolute;
+    width: 520px;
+    height: 550px;
+    left: 739px;
+    top: 50px;
+}
+
+.loginformTextSecondary {
+    position: absolute;
+    width: 202px;
+    height: 24px;
+    left: 210px;
+    top: 220px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+.loginText {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 410px;
+    top: 220px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #10D1E3;
+    opacity: 0.99;
+}
+
+.loginFormContainer {
+    box-sizing: border-box;
+    position: absolute;
+    width: 329px;
+    height: 130px;
+    left: 145px;
+    top: 280px;
+
+    background: #FFFFFF;
+    border: 2px solid #DFEEFF;
+    border-radius: 8px;
+}
+
+.login-form-input {
+    width: 325px !important;
+    height: 65px !important;
+}
+
+.login-form-button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 325px;
+    height: 79px;
+    left: 0px;
+    top: 150px;
+    background: #10D1E3;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.login-form-button-text {
+    position: absolute;
+    width: 84px;
+    height: 30px;
+    left: 110px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.email-icon {
+    position: absolute;
+    left: 90.99%;
+    right: 68.03%;
+    top: 22.32%;
+    bottom: 52.42%;
+    /* background: #10D1E3; */
+}
+
+.password-icon {
+    position: absolute;
+    width: 15px;
+    left: 90.99%;
+    right: -0.02%;
+    top: 70%;
+    bottom: 0%;
+}
+
+.checkbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 147px;
+    top: 530px;
+    border: 1.5px solid #10D1E3;
+    border-radius: 2px;
+}
+
+
+.checkbox-text {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: 169px;
+    top: 528px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #484848;
+    opacity: 0.99;
+}
